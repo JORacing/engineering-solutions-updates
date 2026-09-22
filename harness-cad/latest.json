@@ -10,8 +10,16 @@
         "size": 41274677,
         "date": "2026-09-22",
         "notes": "Restart now works; install log written beside the staged installer."
+      },
+      "beta": {
+        "version": "0.42.0",
+        "url": "https://github.com/JORacing/engineering-solutions-updates/releases/download/harness-cad-v0.42.0/HarnessCAD-Setup-0.42.0.exe",
+        "sha256": "db7ba683783ae6ebd1c0df72ec76e488ad62f46ad57a5f075b68adbd35f1fdfe",
+        "size": 41383465,
+        "date": "2026-09-22",
+        "notes": "v0.42.0: pooled device pins, housing owns its cavities (designator + cavity diameter), DRC cavity-fill rule with amber Cavity tint, wire-editor tints render again, Build Time Report, dock title bars, orbit fix. Needs the 2026-09-22_housing_cavities.sql catalog migration."
       }
     }
   },
-  "signature": "LU21RqpbOy1NBH4YHCeaZYNFiU0smqfIrOthnfYJZ9C+/MKDpni0RA1whKLILNfUoXuV9rJGXwC7tH1YO19sDQ=="
+  "signature": "N4+ObgyXYCvDUa5cmH/sDw5Jc3wxDMiss1wU6jryXHaVj1p/0KChv+4UmSoudeEb+GXIi6Bi/De7fsSDRU6oAw=="
 }
