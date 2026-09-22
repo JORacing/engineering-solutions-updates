@@ -10,8 +10,16 @@
         "size": 41290880,
         "date": "2026-09-22",
         "notes": "In-app updates: silent download, install on exit, Help \u2192 Check for Updates\u2026 / Beta Updates."
+      },
+      "beta": {
+        "version": "0.41.1",
+        "url": "https://github.com/JORacing/engineering-solutions-updates/releases/download/harness-cad-v0.41.1/HarnessCAD-Setup-0.41.1.exe",
+        "sha256": "99f72a3e31da9e5276743732aeeeb00e9c866fe9c742ae4f8f98a91465df46da",
+        "size": 41287558,
+        "date": "2026-09-22",
+        "notes": "First release delivered through the updater (beta test)."
       }
     }
   },
-  "signature": "uhuvM7mImghyweaKIzCH8a8IPEm5mf7IbjfyVUM7HgecqB8wYI+fbZrKgIn4Zo9YdgC/YVAvDUPujQ18J73lBg=="
+  "signature": "y0yLQezzVte3/34Ia/8LYsmhz6GJmGrmvouVDAerpKRA1U9YYQwi5vmgS2JQNaYBai7bhHoL7IRBL1PF1h7SCg=="
 }
