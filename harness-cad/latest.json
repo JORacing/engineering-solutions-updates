@@ -1,7 +1,7 @@
 {
   "payload": {
     "product": "Harness CAD",
-    "generated": "2026-09-22",
+    "generated": "2026-09-23",
     "channels": {
       "stable": {
         "version": "0.41.2",
@@ -12,14 +12,14 @@
         "notes": "Restart now works; install log written beside the staged installer."
       },
       "beta": {
-        "version": "0.42.0",
-        "url": "https://github.com/JORacing/engineering-solutions-updates/releases/download/harness-cad-v0.42.0/HarnessCAD-Setup-0.42.0.exe",
-        "sha256": "db7ba683783ae6ebd1c0df72ec76e488ad62f46ad57a5f075b68adbd35f1fdfe",
-        "size": 41383465,
-        "date": "2026-09-22",
-        "notes": "v0.42.0: pooled device pins, housing owns its cavities (designator + cavity diameter), DRC cavity-fill rule with amber Cavity tint, wire-editor tints render again, Build Time Report, dock title bars, orbit fix. Needs the 2026-09-22_housing_cavities.sql catalog migration."
+        "version": "0.43.0",
+        "url": "https://github.com/JORacing/engineering-solutions-updates/releases/download/harness-cad-v0.43.0/HarnessCAD-Setup-0.43.0.exe",
+        "sha256": "33144a032dfe5dd0593bfdfcc2cd6dd5496eba95d54b303363c95aab2fe45adc",
+        "size": 41484396,
+        "date": "2026-09-23",
+        "notes": "v0.43.0: the pinout diagram belongs to the housing (Housings tab gets the pinout box, canvas resolves connector -> housing, two connectors on one housing share one pinout); nets in the node dialog - Net band on the wire table, Group by Net / Function / Connector / Remote device / Wire part with collapsible groups, search, Node switch, Matrix tab; blank wire rows are saved and never vanish; Add Device offers every cavity of the new connectors as a wire row. Needs the 2026-09-22_pinout_to_housing.sql catalog migration (and 2026-09-22_housing_cavities.sql from v0.42.0)."
       }
     }
   },
-  "signature": "N4+ObgyXYCvDUa5cmH/sDw5Jc3wxDMiss1wU6jryXHaVj1p/0KChv+4UmSoudeEb+GXIi6Bi/De7fsSDRU6oAw=="
+  "signature": "xaWZYbCZsIv6Ugb/dC0ItHvWU7EFHPmTEckN5I301QZ+/i+C8SgH9qDPT5opvaoYkTpgsyF0M3t9OVwo8EMPAA=="
 }
