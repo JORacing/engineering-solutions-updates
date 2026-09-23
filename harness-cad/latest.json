@@ -4,14 +4,6 @@
     "generated": "2026-09-23",
     "channels": {
       "stable": {
-        "version": "0.41.2",
-        "url": "https://github.com/JORacing/engineering-solutions-updates/releases/download/harness-cad-v0.41.2/HarnessCAD-Setup-0.41.2.exe",
-        "sha256": "fb399858c81da8d909b83c09277692beb50153b792378b1d006fbcea274bf39d",
-        "size": 41274677,
-        "date": "2026-09-22",
-        "notes": "Restart now works; install log written beside the staged installer."
-      },
-      "beta": {
         "version": "0.43.0",
         "url": "https://github.com/JORacing/engineering-solutions-updates/releases/download/harness-cad-v0.43.0/HarnessCAD-Setup-0.43.0.exe",
         "sha256": "33144a032dfe5dd0593bfdfcc2cd6dd5496eba95d54b303363c95aab2fe45adc",
@@ -21,5 +13,5 @@
       }
     }
   },
-  "signature": "xaWZYbCZsIv6Ugb/dC0ItHvWU7EFHPmTEckN5I301QZ+/i+C8SgH9qDPT5opvaoYkTpgsyF0M3t9OVwo8EMPAA=="
+  "signature": "azgYVIh6w7TEhTxuYj4Q7I8j0wrFMWBg9B5HsOn6Sop34Fh2WIajwPjfO3FqErEYonu49d56VgngV4qbk6/3Dg=="
 }
