@@ -12,14 +12,14 @@
         "notes": "v0.43.0: the pinout diagram belongs to the housing (Housings tab gets the pinout box, canvas resolves connector -> housing, two connectors on one housing share one pinout); nets in the node dialog - Net band on the wire table, Group by Net / Function / Connector / Remote device / Wire part with collapsible groups, search, Node switch, Matrix tab; blank wire rows are saved and never vanish; Add Device offers every cavity of the new connectors as a wire row. Needs the 2026-09-22_pinout_to_housing.sql catalog migration (and 2026-09-22_housing_cavities.sql from v0.42.0)."
       },
       "beta": {
-        "version": "0.44.0",
-        "url": "https://github.com/JORacing/engineering-solutions-updates/releases/download/harness-cad-v0.44.0/HarnessCAD-Setup-0.44.0.exe",
-        "sha256": "28c332946db5ec6ca8e9a652c8b72780c03f0b990e56f9549c66703c6facc7b5",
-        "size": 41738818,
+        "version": "0.45.0",
+        "url": "https://github.com/JORacing/engineering-solutions-updates/releases/download/harness-cad-v0.45.0/HarnessCAD-Setup-0.45.0.exe",
+        "sha256": "a81450faff8d442697666c0c1c61338ef3a55f82fe214de8f654ab09cb420659",
+        "size": 41955069,
         "date": "2026-09-24",
-        "notes": "v0.44.0 (beta): autosave - an unsaved project is written to a sidecar every 60 s and offered for recovery at startup / File > Open; toolbar \"Place (N)\" places a device from the catalog (node named after the device, connectors + cavities + one wire row per pin, one undo entry); BOM grouped by connector assembly (one line per connector part number with its rolled-up price, parts indented under it, CSV + print follow); one DRC rule engine (14 rules with stable ids, Rules... legend, one state -> colour table shared by the DRC window and the node dialog tints, waivers stored in the .project, grouped by Node or Rule); the demo \"crash on Cancel\" fixed - closed node dialogs now really disconnect from the controller in the packaged build, Discard is one bulk update, and the Save / Discard / Cancel prompt says what Discard throws away; internal terminals (a terminal with no part number, \"+ Custom terminal...\" on the Connectors tab) and bare-terminal connectors (ring / spade / fork without a phantom housing); node-dialog buttons after Place (\"+ Add Another Device\", \"+ Fill Missing Cavities\", the name-this-node prompt only on automatic N-names); wire table edits like a spreadsheet (multi-select, copy / paste, Select Device on a block, Enter opens the editor); type-to-filter pickers for Add Device / Add Connector; right-click menus on every canvas item end with \"Properties...\", right-clicking a node's name label opens its menu, and a right press never drags. Needs the 2026-09-24_internal_terminals.sql catalog migration (applied on master; customer branches before promote)."
+        "notes": "Splices: a splice is its own part (Parts Database > Splices; Max cross-section and Inner diameter fill each other). In the node editor a splice sits alone on a node or inside a connector's boot: Splice column in the wire table, \"+ New splice...\" in its dropdown, pigtail rows, a Splices group in the Connectors tab, Place > Splice.\nWire cross-sections are stored in mm2 and shown in the program's unit (Edit > Settings).\nNode dialog: Save / Save and close / Close; reopens where it was closed.\nNeeds the 2026-09-24 database migrations (applied on master)."
       }
     }
   },
-  "signature": "oWKgpgVDMM5CFKpKg7z16s9qD2CW7oaVvVToRihE1HPZK5gKQEmaN7dHJCquuHXPsR8W9v+5X461ZxuibVfpAg=="
+  "signature": "s0ZXs/bSRKkGwFK/DiNsbchqMhxtZlIcna4OrTXBo039FLpS7doLR8HMkqMOWCiyHwPZKqfg65bFL1uDHbO9AA=="
 }
