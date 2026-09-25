@@ -4,22 +4,14 @@
     "generated": "2026-09-25",
     "channels": {
       "stable": {
-        "version": "0.43.0",
-        "url": "https://github.com/JORacing/engineering-solutions-updates/releases/download/harness-cad-v0.43.0/HarnessCAD-Setup-0.43.0.exe",
-        "sha256": "33144a032dfe5dd0593bfdfcc2cd6dd5496eba95d54b303363c95aab2fe45adc",
-        "size": 41484396,
-        "date": "2026-09-23",
-        "notes": "v0.43.0: the pinout diagram belongs to the housing (Housings tab gets the pinout box, canvas resolves connector -> housing, two connectors on one housing share one pinout); nets in the node dialog - Net band on the wire table, Group by Net / Function / Connector / Remote device / Wire part with collapsible groups, search, Node switch, Matrix tab; blank wire rows are saved and never vanish; Add Device offers every cavity of the new connectors as a wire row. Needs the 2026-09-22_pinout_to_housing.sql catalog migration (and 2026-09-22_housing_cavities.sql from v0.42.0)."
-      },
-      "beta": {
-        "version": "0.47.0",
-        "url": "https://github.com/JORacing/engineering-solutions-updates/releases/download/harness-cad-v0.47.0/HarnessCAD-Setup-0.47.0.exe",
-        "sha256": "38285bfdfede6497c0dd8dd410e718280114b317380ff3c3c464a1c1b6065038",
-        "size": 42048211,
+        "version": "0.48.0",
+        "url": "https://github.com/JORacing/engineering-solutions-updates/releases/download/harness-cad-v0.48.0/HarnessCAD-Setup-0.48.0.exe",
+        "sha256": "104e63c5c54b0e464221e397da637e25192751baa34309d5ce4da48e1d37f43b",
+        "size": 42070804,
         "date": "2026-09-25",
-        "notes": "Harness CAD 0.47.0 (beta)\n\n- Parts Database \u2192 Wires: every cable conductor has its own \u00d8 (one conductor = the Outer Diameter; a cable's Outer Diameter is the jacket), plus a Shield row with its own cross section (22 AWG default) and \u00d8.\n- Design Rule Check judges a cable row as the conductor it is: cavity fill by its own \u00d8, terminal range and splice cross section by its own size \u2014 never the jacket.\n- Node dialog: the Wire dropdown lists each cable conductor and the shield; picking one sets the conductor.\n- File \u2192 Settings\u2026 \u2192 Length: mm, cm, m or in.\n- The wire table sorts only when a column title is clicked; right-click Add Connection Above / Below.\n- A selected cell keeps its Design Rule Check colour (the selection is a frame).\n- \"Manually set\" is flagged only when the catalog disagrees with the hand-set pin.\n- Fixes: a conductor picked by a function default survives reopening the node dialog; selecting a wire in the Parts Database no longer reads \"Modified\"."
+        "notes": "0.48.0 - everything since 0.43.0: splices (part, instances, node editor, DRC rule); wire cross section in mm2 with program units for cross section, length and diameter; cable conductor and shield diameter; new menu structure; Design Rule Check engine with waivers and legend; autosave and recovery; Place menu; BOM grouped by connector; custom terminals; hover and scroll never edit a cell."
       }
     }
   },
-  "signature": "gWs5EnyN0EBO4OfsKJSNV1dl84KSf3OscgaPJlFUKD+EtuiqYEddyVxHvTOR2uoktiYf7YDw/69FPljGiRI4Cg=="
+  "signature": "tJHfcYOBrC/QQpglDAj95K/WRCV8DMPfrln5K8elinoFuJ6Xk8D5SKbqniPPl6su6ZjiC3BL78GixPA0sAClCg=="
 }
