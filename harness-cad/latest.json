@@ -10,8 +10,16 @@
         "size": 42070804,
         "date": "2026-09-25",
         "notes": "0.48.0 - everything since 0.43.0: splices (part, instances, node editor, DRC rule); wire cross section in mm2 with program units for cross section, length and diameter; cable conductor and shield diameter; new menu structure; Design Rule Check engine with waivers and legend; autosave and recovery; Place menu; BOM grouped by connector; custom terminals; hover and scroll never edit a cell."
+      },
+      "beta": {
+        "version": "0.49.0",
+        "url": "https://github.com/JORacing/engineering-solutions-updates/releases/download/harness-cad-v0.49.0/HarnessCAD-Setup-0.49.0.exe",
+        "sha256": "7907dbedf7ae9ee0022949a51abe8eeab614afca8d3af04be957f3ecefc63c2c",
+        "size": 42071823,
+        "date": "2026-09-25",
+        "notes": "0.49.0 beta - Parts Database: a device (and a connector's cavity table) opens at once instead of after several seconds. Cells show plain text; a dropdown appears while a cell is edited (double-click, click in a selected row, F2 or typing). Alias chips: x removes, + alias adds."
       }
     }
   },
-  "signature": "tJHfcYOBrC/QQpglDAj95K/WRCV8DMPfrln5K8elinoFuJ6Xk8D5SKbqniPPl6su6ZjiC3BL78GixPA0sAClCg=="
+  "signature": "KFLyskP7r7tfCIO9MdYCmMWYxflDWtUyzdb87wCZbeMghRbomrBTqnvF/v7HAu8/u4gl2FkkfyniDetUWgxkBg=="
 }
