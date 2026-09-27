@@ -4,14 +4,6 @@
     "generated": "2026-09-27",
     "channels": {
       "stable": {
-        "version": "0.48.0",
-        "url": "https://github.com/JORacing/engineering-solutions-updates/releases/download/harness-cad-v0.48.0/HarnessCAD-Setup-0.48.0.exe",
-        "sha256": "104e63c5c54b0e464221e397da637e25192751baa34309d5ce4da48e1d37f43b",
-        "size": 42070804,
-        "date": "2026-09-25",
-        "notes": "0.48.0 - everything since 0.43.0: splices (part, instances, node editor, DRC rule); wire cross section in mm2 with program units for cross section, length and diameter; cable conductor and shield diameter; new menu structure; Design Rule Check engine with waivers and legend; autosave and recovery; Place menu; BOM grouped by connector; custom terminals; hover and scroll never edit a cell."
-      },
-      "beta": {
         "version": "0.50.0",
         "url": "https://github.com/JORacing/engineering-solutions-updates/releases/download/harness-cad-v0.50.0/HarnessCAD-Setup-0.50.0.exe",
         "sha256": "ae0ee599fcec63a61592270e7763d8a7e4a5af8b76cb5c12dda4716364102d46",
@@ -21,5 +13,5 @@
       }
     }
   },
-  "signature": "ATgpamcNuJ7Azb0tUL/Ad15PrZM7FcZdxVrhYYPmw7TQxHXMr7CKh6ETTQNOROn4HFOjOLdEbnZGn6vEypa8Bw=="
+  "signature": "LiRrx6F1HIgpv1f6TAvxWd77sZhJTNO1Y69suNT/N8wnWaiS8qNK14Ar8SjUuZHVYbTwgsmiIlgVNULUlshABw=="
 }
