@@ -4,14 +4,14 @@
     "generated": "2026-09-28",
     "channels": {
       "beta": {
-        "version": "0.52.0",
-        "url": "https://github.com/JORacing/engineering-solutions-updates/releases/download/wireproof-v0.52.0/WireProof-Setup-0.52.0.exe",
-        "sha256": "6af3f49d4de6a58cad1a4364790915eadfc30ab32e25cd074b26956fc0836b53",
-        "size": 52796666,
+        "version": "0.53.0",
+        "url": "https://github.com/JORacing/engineering-solutions-updates/releases/download/wireproof-v0.53.0/WireProof-Setup-0.53.0.exe",
+        "sha256": "4f2a2c78abd9da3c214c55064c597a44a13b8dfb82adf4614893392187fa4923",
+        "size": 45467160,
         "date": "2026-09-28",
-        "notes": "WireProof 0.52.0 (beta)\n\n- Shared company and printer profiles in the Parts Database: File \u2192 Settings\u2026 \u2192 Company (company name, export logo, label logo, Logo on labels) and \u2192 Label printer (tape, margins, the wire / harness / box label layouts). Load makes a profile this PC's; Save profile, Save as new profile\u2026, Delete\u2026 and Locked are the Designer's. The Windows printer stays per PC.\n- The project remembers its company profile (Project Properties \u2192 Company); title block, exports and labels name that company with its logos.\n- Builder and Viewer read the whole Parts Database (panel, BOM catalog lines, Design Rule Check catalog rules, photos, profiles) and change nothing in it.\n- Photo sync: a photo replaced by another file type shows the new one; an upload no longer hides another PC's newer photos."
+        "notes": "Fast start: a splash while WireProof loads; the window is usable as soon as it shows (the catalog snapshot serves at once, its database check runs in the background); the database is woken at launch.\nParts Database: opens at once with a loading bar; its dropdowns come from the catalog snapshot; a lookup edit reloads the catalog.\nPhotos are read when shown; the Excel library loads on export.\nAlso: a device lists every cavity of its connectors; junction shape switch is undoable; segments keyed by GUID; database notices on the status bar; a Parts Database save shows its reload."
       }
     }
   },
-  "signature": "cyB6HK2s5pCo1pkpS3HWKkquT+2a0XOklmk0mXyj/dV3QhQWIGDszB/ioTtXolfFl1z+nWsFLLdw45bx6AzUBQ=="
+  "signature": "IBcCiaZ9NrIezKZ86Qc+x+dS3puBj9u24K2BaRZGNs1hjsDjwe7ysSygqS8rGvQtOP0xyBbnFBfqnlitDqLVBg=="
 }
