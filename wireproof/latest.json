@@ -4,14 +4,14 @@
     "generated": "2026-09-28",
     "channels": {
       "beta": {
-        "version": "0.51.0",
-        "url": "https://github.com/JORacing/engineering-solutions-updates/releases/download/wireproof-v0.51.0/WireProof-Setup-0.51.0.exe",
-        "sha256": "7366e2f83c03ef917fc2a125b0ffd2a43f0e00a68d8137be5e544680a11d712b",
-        "size": 52663739,
+        "version": "0.52.0",
+        "url": "https://github.com/JORacing/engineering-solutions-updates/releases/download/wireproof-v0.52.0/WireProof-Setup-0.52.0.exe",
+        "sha256": "6af3f49d4de6a58cad1a4364790915eadfc30ab32e25cd074b26956fc0836b53",
+        "size": 52796666,
         "date": "2026-09-28",
-        "notes": "WireProof \u2014 Harness CAD 0.51.0 (beta). Harness CAD is now WireProof, powered by Engineering Solutions ApS.\n\n- New name everywhere: window title, Help \u2192 About WireProof (with the Engineering Solutions \"Powered by\" logo), HTML export footer, installer and Start menu.\n- New product: this installer does not upgrade Harness CAD. Uninstall Harness CAD first, then run WireProof-Setup-0.51.0.exe.\n- Licenses are WireProof licenses now (keys start with WP-LIC-, machine codes with WPM-); a Harness CAD license does not open WireProof."
+        "notes": "WireProof 0.52.0 (beta)\n\n- Shared company and printer profiles in the Parts Database: File \u2192 Settings\u2026 \u2192 Company (company name, export logo, label logo, Logo on labels) and \u2192 Label printer (tape, margins, the wire / harness / box label layouts). Load makes a profile this PC's; Save profile, Save as new profile\u2026, Delete\u2026 and Locked are the Designer's. The Windows printer stays per PC.\n- The project remembers its company profile (Project Properties \u2192 Company); title block, exports and labels name that company with its logos.\n- Builder and Viewer read the whole Parts Database (panel, BOM catalog lines, Design Rule Check catalog rules, photos, profiles) and change nothing in it.\n- Photo sync: a photo replaced by another file type shows the new one; an upload no longer hides another PC's newer photos."
       }
     }
   },
-  "signature": "o4pvHj4p5DYnEPlX1euCRjrUxjHKfLDsGvRzqqTfdsrOLpkFEShF0Mlv1dFFr/2GU4b9lbjUVUbDJVZaccReCQ=="
+  "signature": "cyB6HK2s5pCo1pkpS3HWKkquT+2a0XOklmk0mXyj/dV3QhQWIGDszB/ioTtXolfFl1z+nWsFLLdw45bx6AzUBQ=="
 }
