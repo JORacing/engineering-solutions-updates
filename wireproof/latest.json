@@ -4,14 +4,14 @@
     "generated": "2026-09-29",
     "channels": {
       "beta": {
-        "version": "0.54.0",
-        "url": "https://github.com/JORacing/engineering-solutions-updates/releases/download/wireproof-v0.54.0/WireProof-Setup-0.54.0.exe",
-        "sha256": "8b50efbe69b0b526c73cef0b817d34498e1c8cb98b9f1bbfce1d0c36c06b79ea",
-        "size": 45541888,
+        "version": "0.54.1",
+        "url": "https://github.com/JORacing/engineering-solutions-updates/releases/download/wireproof-v0.54.1/WireProof-Setup-0.54.1.exe",
+        "sha256": "f2a6587281b3bbad068304c6ec61363602982398e517d2f1a5cc0f83547f1313",
+        "size": 45541524,
         "date": "2026-09-29",
-        "notes": "One build board and grid per project: the board and sheet grid are shared by every harness and saved with the project. File > Settings > Board and grid and Harness > Board and Grid (project) edit it and update every open canvas at once. An older file takes its first harness's board."
+        "notes": "WireProof closes without a crash: the program deletes its windows itself before it ends (most closes still crashed after the window was gone; nothing was lost). Includes 0.54.0: one build board and grid per project."
       }
     }
   },
-  "signature": "Kbsufo2YvWJT/jrfi332w1DccGJTWfaNtsUHfjaVwlarZVVsPwb5oshyPYBl9zVRFFnUF9gNyjfTybEyPu1lBw=="
+  "signature": "eVBlIyBHOVrQ1Mc78ZrRA6KxLzrNalqmJJSHgBvwiHN+FeDtemtUsTFv/xjITQIelVZ3NuUPyR941LcoPpNQDg=="
 }
