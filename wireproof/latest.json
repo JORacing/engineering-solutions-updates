@@ -4,14 +4,14 @@
     "generated": "2026-09-29",
     "channels": {
       "beta": {
-        "version": "0.53.1",
-        "url": "https://github.com/JORacing/engineering-solutions-updates/releases/download/wireproof-v0.53.1/WireProof-Setup-0.53.1.exe",
-        "sha256": "820a04f733b5cd8605c5b9f5418a41dd1ef625a36e0b0528f0de604a191ab1e9",
-        "size": 45532238,
+        "version": "0.54.0",
+        "url": "https://github.com/JORacing/engineering-solutions-updates/releases/download/wireproof-v0.54.0/WireProof-Setup-0.54.0.exe",
+        "sha256": "8b50efbe69b0b526c73cef0b817d34498e1c8cb98b9f1bbfce1d0c36c06b79ea",
+        "size": 45541888,
         "date": "2026-09-29",
-        "notes": "No crash as WireProof closes: the build ships the current Visual C++ runtime (it shipped PyQt6's 2020 copy, which Qt 6.10 crashed in after the window closed \u2014 every version since 0.43.0).\nIncludes everything in 0.53.0: fast start with a splash, the database woken at launch, the catalog checked in the background, and the Parts Database opening at once with a loading bar."
+        "notes": "One build board and grid per project: the board and sheet grid are shared by every harness and saved with the project. File > Settings > Board and grid and Harness > Board and Grid (project) edit it and update every open canvas at once. An older file takes its first harness's board."
       }
     }
   },
-  "signature": "e1Ew4+uvazl/3iuMJ5T7yNGsWyQ+N4CP8NikPZ2pneBVvy7EwzExsORW1GQoRG3hK1qBBGbAMQifgpI4a/b6Aw=="
+  "signature": "Kbsufo2YvWJT/jrfi332w1DccGJTWfaNtsUHfjaVwlarZVVsPwb5oshyPYBl9zVRFFnUF9gNyjfTybEyPu1lBw=="
 }
