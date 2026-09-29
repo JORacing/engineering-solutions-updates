@@ -1,17 +1,17 @@
 {
   "payload": {
     "product": "WireProof",
-    "generated": "2026-09-28",
+    "generated": "2026-09-29",
     "channels": {
       "beta": {
-        "version": "0.53.0",
-        "url": "https://github.com/JORacing/engineering-solutions-updates/releases/download/wireproof-v0.53.0/WireProof-Setup-0.53.0.exe",
-        "sha256": "4f2a2c78abd9da3c214c55064c597a44a13b8dfb82adf4614893392187fa4923",
-        "size": 45467160,
-        "date": "2026-09-28",
-        "notes": "Fast start: a splash while WireProof loads; the window is usable as soon as it shows (the catalog snapshot serves at once, its database check runs in the background); the database is woken at launch.\nParts Database: opens at once with a loading bar; its dropdowns come from the catalog snapshot; a lookup edit reloads the catalog.\nPhotos are read when shown; the Excel library loads on export.\nAlso: a device lists every cavity of its connectors; junction shape switch is undoable; segments keyed by GUID; database notices on the status bar; a Parts Database save shows its reload."
+        "version": "0.53.1",
+        "url": "https://github.com/JORacing/engineering-solutions-updates/releases/download/wireproof-v0.53.1/WireProof-Setup-0.53.1.exe",
+        "sha256": "820a04f733b5cd8605c5b9f5418a41dd1ef625a36e0b0528f0de604a191ab1e9",
+        "size": 45532238,
+        "date": "2026-09-29",
+        "notes": "No crash as WireProof closes: the build ships the current Visual C++ runtime (it shipped PyQt6's 2020 copy, which Qt 6.10 crashed in after the window closed \u2014 every version since 0.43.0).\nIncludes everything in 0.53.0: fast start with a splash, the database woken at launch, the catalog checked in the background, and the Parts Database opening at once with a loading bar."
       }
     }
   },
-  "signature": "IBcCiaZ9NrIezKZ86Qc+x+dS3puBj9u24K2BaRZGNs1hjsDjwe7ysSygqS8rGvQtOP0xyBbnFBfqnlitDqLVBg=="
+  "signature": "e1Ew4+uvazl/3iuMJ5T7yNGsWyQ+N4CP8NikPZ2pneBVvy7EwzExsORW1GQoRG3hK1qBBGbAMQifgpI4a/b6Aw=="
 }
