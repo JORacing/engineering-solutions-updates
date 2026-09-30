@@ -3,7 +3,7 @@
     "product": "WireProof",
     "generated": "2026-09-30",
     "channels": {
-      "beta": {
+      "stable": {
         "version": "0.54.2",
         "url": "https://github.com/JORacing/engineering-solutions-updates/releases/download/wireproof-v0.54.2/WireProof-Setup-0.54.2.exe",
         "sha256": "66137358d3a2ebec4af9008bf56bb6682bb49536e9deb23b821efb41b13e68eb",
@@ -13,5 +13,5 @@
       }
     }
   },
-  "signature": "dXqiQ5nGIYDwpfV+MQABqB5XCwQh78sHiubCbAe/WE+hN3c8YpcoxJ2sR7/y8k5H150n19eHeNmmQqvokmnlBg=="
+  "signature": "2WFM2w31ItWCh3WvdV3uvFGtz7a8nETTIGfOrskA5Z1TfJ0wBeWoHnOAokooo1BZiqwWL+dk9zSquSVU/q1yAg=="
 }
