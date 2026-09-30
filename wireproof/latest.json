@@ -1,17 +1,17 @@
 {
   "payload": {
     "product": "WireProof",
-    "generated": "2026-09-29",
+    "generated": "2026-09-30",
     "channels": {
       "beta": {
-        "version": "0.54.1",
-        "url": "https://github.com/JORacing/engineering-solutions-updates/releases/download/wireproof-v0.54.1/WireProof-Setup-0.54.1.exe",
-        "sha256": "f2a6587281b3bbad068304c6ec61363602982398e517d2f1a5cc0f83547f1313",
-        "size": 45541524,
-        "date": "2026-09-29",
-        "notes": "WireProof closes without a crash: the program deletes its windows itself before it ends (most closes still crashed after the window was gone; nothing was lost). Includes 0.54.0: one build board and grid per project."
+        "version": "0.54.2",
+        "url": "https://github.com/JORacing/engineering-solutions-updates/releases/download/wireproof-v0.54.2/WireProof-Setup-0.54.2.exe",
+        "sha256": "66137358d3a2ebec4af9008bf56bb6682bb49536e9deb23b821efb41b13e68eb",
+        "size": 45540665,
+        "date": "2026-09-30",
+        "notes": "A loaded company or label printer profile stays loaded: Load stores it at once, Cancel no longer loses it, every start loads it."
       }
     }
   },
-  "signature": "eVBlIyBHOVrQ1Mc78ZrRA6KxLzrNalqmJJSHgBvwiHN+FeDtemtUsTFv/xjITQIelVZ3NuUPyR941LcoPpNQDg=="
+  "signature": "dXqiQ5nGIYDwpfV+MQABqB5XCwQh78sHiubCbAe/WE+hN3c8YpcoxJ2sR7/y8k5H150n19eHeNmmQqvokmnlBg=="
 }
