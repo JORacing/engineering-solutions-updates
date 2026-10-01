@@ -1,7 +1,7 @@
 {
   "payload": {
     "product": "WireProof",
-    "generated": "2026-09-30",
+    "generated": "2026-10-01",
     "channels": {
       "stable": {
         "version": "0.54.2",
@@ -10,8 +10,16 @@
         "size": 45540665,
         "date": "2026-09-30",
         "notes": "A loaded company or label printer profile stays loaded: Load stores it at once, Cancel no longer loses it, every start loads it."
+      },
+      "beta": {
+        "version": "0.55.0",
+        "url": "https://github.com/JORacing/engineering-solutions-updates/releases/download/wireproof-v0.55.0/WireProof-Setup-0.55.0.exe",
+        "sha256": "1ca46e6ec041f24474713b2426e0b565a66268193cb98dd49da45725c2c6d63a",
+        "size": 45723769,
+        "date": "2026-10-01",
+        "notes": "Tools \u2192 Matrix (one wire per row, a column per node); Harness \u2192 Protection: Tape or Heatshrink + best fit for the whole harness; segment protection labels and notes in View Settings \u2192 Visibility; the title block on the canvas at the board's lower-left, printed there; docks open on the right; fixed: each wire shows its own net, canvas edits mark the project unsaved, Parts Database Reload."
       }
     }
   },
-  "signature": "2WFM2w31ItWCh3WvdV3uvFGtz7a8nETTIGfOrskA5Z1TfJ0wBeWoHnOAokooo1BZiqwWL+dk9zSquSVU/q1yAg=="
+  "signature": "sfAHAR8X3NJnehVYer8cK4I8lKap9ED9olTuJiyi57N9wVkorl4qkWU455BXuEjjIYiH7jdc7q3ubBi7zHu9Cw=="
 }
