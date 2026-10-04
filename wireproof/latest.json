@@ -1,7 +1,7 @@
 {
   "payload": {
     "product": "WireProof",
-    "generated": "2026-10-01",
+    "generated": "2026-10-04",
     "channels": {
       "stable": {
         "version": "0.54.2",
@@ -12,14 +12,14 @@
         "notes": "A loaded company or label printer profile stays loaded: Load stores it at once, Cancel no longer loses it, every start loads it."
       },
       "beta": {
-        "version": "0.55.1",
-        "url": "https://github.com/JORacing/engineering-solutions-updates/releases/download/wireproof-v0.55.1/WireProof-Setup-0.55.1.exe",
-        "sha256": "4af185d2598b656cd6fd3674964ee502cfaad47a32b854c0ef4044d56acefb3d",
-        "size": 45727962,
-        "date": "2026-10-01",
-        "notes": "Plotter roll with a board length; Settings Apply, Enter no longer closes; Project Properties Logo removed; docks open narrow; unit-change errors after closed dialogs fixed"
+        "version": "0.56.0",
+        "url": "https://github.com/JORacing/engineering-solutions-updates/releases/download/wireproof-v0.56.0/WireProof-Setup-0.56.0.exe",
+        "sha256": "5f0ddc41f9ca514b4dcc82a4fd650b8d8d09606ddf44c350b030c25f1c78a9da",
+        "size": 46192569,
+        "date": "2026-10-04",
+        "notes": "Cavity maps (Build \u2192 Cavity Maps): each connector's face with wire, cut length and destination per cavity, REAR / FRONT, terminal markers, print / PDF. Connector faces in the Parts Database. Operations layer + API, legacy spreadsheet import, fixes."
       }
     }
   },
-  "signature": "lCjEj+0kyi84uXmXbLvU3rZ5C6z5UKpYeULqjjWZYGOBu2wldhhCSjutZtePlzQLomcvwBY9PQoZvAMZi2vtDQ=="
+  "signature": "0abx8KX9NqcJK16IxbXI06JZSaZpXjePsYn85b7Sj6l/akPCB098Lq5VTqN4tzLYO2lZdPdCxsQq50JR/I1oBQ=="
 }
