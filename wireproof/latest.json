@@ -1,7 +1,7 @@
 {
   "payload": {
     "product": "WireProof",
-    "generated": "2026-10-04",
+    "generated": "2026-10-05",
     "channels": {
       "stable": {
         "version": "0.54.2",
@@ -12,14 +12,14 @@
         "notes": "A loaded company or label printer profile stays loaded: Load stores it at once, Cancel no longer loses it, every start loads it."
       },
       "beta": {
-        "version": "0.56.0",
-        "url": "https://github.com/JORacing/engineering-solutions-updates/releases/download/wireproof-v0.56.0/WireProof-Setup-0.56.0.exe",
-        "sha256": "5f0ddc41f9ca514b4dcc82a4fd650b8d8d09606ddf44c350b030c25f1c78a9da",
-        "size": 46192569,
-        "date": "2026-10-04",
-        "notes": "Cavity maps (Build \u2192 Cavity Maps): each connector's face with wire, cut length and destination per cavity, REAR / FRONT, terminal markers, print / PDF. Connector faces in the Parts Database. Operations layer + API, legacy spreadsheet import, fixes."
+        "version": "0.57.0",
+        "url": "https://github.com/JORacing/engineering-solutions-updates/releases/download/wireproof-v0.57.0/WireProof-Setup-0.57.0.exe",
+        "sha256": "37f975e2234f6d4987c581e91c0cf36d2467739d135b7f020a8bc90a91c01b65",
+        "size": 46390020,
+        "date": "2026-10-05",
+        "notes": "Face editor in the Parts Database (Housings Face box Edit/New, Faces New/Edit); a housing's face pick is saved with the housing (Cancel undoes it); no hidden text in the face screens."
       }
     }
   },
-  "signature": "0abx8KX9NqcJK16IxbXI06JZSaZpXjePsYn85b7Sj6l/akPCB098Lq5VTqN4tzLYO2lZdPdCxsQq50JR/I1oBQ=="
+  "signature": "vEaLTBkx1TAXgqfl9wcwGYKy08D19zP4yoKUy6Nms+WuJM4e9SRL7bsrf4l4qUDohKi1UprzmRhu5RgMxNT5CA=="
 }
