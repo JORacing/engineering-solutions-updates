@@ -1,7 +1,7 @@
 {
   "payload": {
     "product": "WireProof",
-    "generated": "2026-10-05",
+    "generated": "2026-10-06",
     "channels": {
       "stable": {
         "version": "0.54.2",
@@ -12,14 +12,14 @@
         "notes": "A loaded company or label printer profile stays loaded: Load stores it at once, Cancel no longer loses it, every start loads it."
       },
       "beta": {
-        "version": "0.57.0",
-        "url": "https://github.com/JORacing/engineering-solutions-updates/releases/download/wireproof-v0.57.0/WireProof-Setup-0.57.0.exe",
-        "sha256": "37f975e2234f6d4987c581e91c0cf36d2467739d135b7f020a8bc90a91c01b65",
-        "size": 46390020,
-        "date": "2026-10-05",
-        "notes": "Face editor in the Parts Database (Housings Face box Edit/New, Faces New/Edit); a housing's face pick is saved with the housing (Cancel undoes it); no hidden text in the face screens."
+        "version": "0.58.0",
+        "url": "https://github.com/JORacing/engineering-solutions-updates/releases/download/wireproof-v0.58.0/WireProof-Setup-0.58.0.exe",
+        "sha256": "8aa0f3458ecbc99bc38bfe8794213e6e3792bb91bae6197ac7a9665dec5c79e8",
+        "size": 46408409,
+        "date": "2026-10-06",
+        "notes": "Connector faces on the canvas: right-click a node > Add Connector Face (rear or front, per connector or all) shows the face with its wires and destinations, follows wire changes, prints with the board."
       }
     }
   },
-  "signature": "vEaLTBkx1TAXgqfl9wcwGYKy08D19zP4yoKUy6Nms+WuJM4e9SRL7bsrf4l4qUDohKi1UprzmRhu5RgMxNT5CA=="
+  "signature": "9Ge5kJZK8CHRJynZNq6f1zrQiV+CfdndrCfkg5rCP22+WSel/VMafmoRD8nTN+Gmm8rnpIXeHwEyIGpcw68xBg=="
 }
