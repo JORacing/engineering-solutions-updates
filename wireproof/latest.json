@@ -1,7 +1,7 @@
 {
   "payload": {
     "product": "WireProof",
-    "generated": "2026-10-06",
+    "generated": "2026-10-30",
     "channels": {
       "stable": {
         "version": "0.54.2",
@@ -12,14 +12,14 @@
         "notes": "A loaded company or label printer profile stays loaded: Load stores it at once, Cancel no longer loses it, every start loads it."
       },
       "beta": {
-        "version": "0.58.0",
-        "url": "https://github.com/JORacing/engineering-solutions-updates/releases/download/wireproof-v0.58.0/WireProof-Setup-0.58.0.exe",
-        "sha256": "8aa0f3458ecbc99bc38bfe8794213e6e3792bb91bae6197ac7a9665dec5c79e8",
-        "size": 46408409,
-        "date": "2026-10-06",
-        "notes": "Connector faces on the canvas: right-click a node > Add Connector Face (rear or front, per connector or all) shows the face with its wires and destinations, follows wire changes, prints with the board."
+        "version": "0.59.0",
+        "url": "https://github.com/JORacing/engineering-solutions-updates/releases/download/wireproof-v0.59.0/WireProof-Setup-0.59.0.exe",
+        "sha256": "4b037ac80a347e19148d4fe35df6662dfe4ed41f9527c1bc738cd2b761df801f",
+        "size": 41972876,
+        "date": "2026-10-30",
+        "notes": "Title block with part number and Approved by (Project Properties); photos capped on Qt, Pillow out of the build (~11 MB smaller); a run from source refuses a Visual C++ runtime older than Qt needs; dead-code sweep (46 uncalled functions); docs brought back in line with the code. Also: Build \u2192 Export Connection Sheet\u2026 (OBR pin-list layout, Changelog sheet), Parts Database Open photos folder, function names by what the wire does (Step 1), connector-face fixes."
       }
     }
   },
-  "signature": "9Ge5kJZK8CHRJynZNq6f1zrQiV+CfdndrCfkg5rCP22+WSel/VMafmoRD8nTN+Gmm8rnpIXeHwEyIGpcw68xBg=="
+  "signature": "oWIZgnusnzxbSVz1xzBhLV17uVgg/xG6DED5VTjPSh8bUrDYKV7nI2kMgtkYVjaooshvjEYpr2vBuwbGQgXiCw=="
 }
