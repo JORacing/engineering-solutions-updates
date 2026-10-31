@@ -1,25 +1,17 @@
 {
   "payload": {
     "product": "WireProof",
-    "generated": "2026-10-30",
+    "generated": "2026-10-31",
     "channels": {
       "stable": {
-        "version": "0.54.2",
-        "url": "https://github.com/JORacing/engineering-solutions-updates/releases/download/wireproof-v0.54.2/WireProof-Setup-0.54.2.exe",
-        "sha256": "66137358d3a2ebec4af9008bf56bb6682bb49536e9deb23b821efb41b13e68eb",
-        "size": 45540665,
-        "date": "2026-09-30",
-        "notes": "A loaded company or label printer profile stays loaded: Load stores it at once, Cancel no longer loses it, every start loads it."
-      },
-      "beta": {
         "version": "0.59.0",
         "url": "https://github.com/JORacing/engineering-solutions-updates/releases/download/wireproof-v0.59.0/WireProof-Setup-0.59.0.exe",
         "sha256": "4b037ac80a347e19148d4fe35df6662dfe4ed41f9527c1bc738cd2b761df801f",
         "size": 41972876,
-        "date": "2026-10-30",
+        "date": "2026-10-31",
         "notes": "Title block with part number and Approved by (Project Properties); photos capped on Qt, Pillow out of the build (~11 MB smaller); a run from source refuses a Visual C++ runtime older than Qt needs; dead-code sweep (46 uncalled functions); docs brought back in line with the code. Also: Build \u2192 Export Connection Sheet\u2026 (OBR pin-list layout, Changelog sheet), Parts Database Open photos folder, function names by what the wire does (Step 1), connector-face fixes."
       }
     }
   },
-  "signature": "oWIZgnusnzxbSVz1xzBhLV17uVgg/xG6DED5VTjPSh8bUrDYKV7nI2kMgtkYVjaooshvjEYpr2vBuwbGQgXiCw=="
+  "signature": "8Vy7uWWof2AAyHFUYLApWGzljTTuQxOFHzOJrh2QSxMLFt3Oliiu1dyvkpqlKLsfG7yGgkhDSIkWnFm7TAnBCw=="
 }
