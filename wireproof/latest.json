@@ -1,7 +1,7 @@
 {
   "payload": {
     "product": "WireProof",
-    "generated": "2026-10-31",
+    "generated": "2026-11-04",
     "channels": {
       "stable": {
         "version": "0.59.0",
@@ -12,14 +12,14 @@
         "notes": "Title block with part number and Approved by (Project Properties); photos capped on Qt, Pillow out of the build (~11 MB smaller); a run from source refuses a Visual C++ runtime older than Qt needs; dead-code sweep (46 uncalled functions); docs brought back in line with the code. Also: Build \u2192 Export Connection Sheet\u2026 (OBR pin-list layout, Changelog sheet), Parts Database Open photos folder, function names by what the wire does (Step 1), connector-face fixes."
       },
       "beta": {
-        "version": "0.60.0",
-        "url": "https://github.com/JORacing/engineering-solutions-updates/releases/download/wireproof-v0.60.0/WireProof-Setup-0.60.0.exe",
-        "sha256": "542b615ade509fe26a06ea4054f5a887a9d0510ca4c2ea05d4c68f0f2ffa49e5",
-        "size": 42058276,
-        "date": "2026-10-31",
-        "notes": "WireProof 0.60.0 (beta)\n\n- Catalog picker: Parts Database \u2192 Devices \u2192 Add and the node dialog's + Add Connector open a searchable, filterable table of every catalog connector with thumbnails, a photo and the notes; Ctrl-click adds several at once.\n- Faces\u2026: the faces list is the same browser \u2014 filters, a layout thumbnail per face, the REAR preview with the linked housings and checks, the face sheet on a click.\n- Assign remote cavity: the spare-pin pick is a table (connector - cavity in natural order, C-number, function, aliases, device note).\n- DRC: the \"Net: two sources\" rule is removed (it tripped on every device-first wire); shared pin and loose end stay.\n- Crash diagnostics: Qt's own warnings and fatal messages are in the session log; the installer build refuses a dist without the Visual C++ 14.40 runtime.\n- Fixed: a device save dropped a connector row whose catalog id the Devices tab did not know.\n- First start pulls the catalog once (the snapshot shape changed). No database migrations."
+        "version": "0.61.0",
+        "url": "https://github.com/JORacing/engineering-solutions-updates/releases/download/wireproof-v0.61.0/WireProof-Setup-0.61.0.exe",
+        "sha256": "6fbff04299854926a17c8171b4e2eca3fc244371c86a0d6ada21c58005f98b31",
+        "size": 42204778,
+        "date": "2026-11-04",
+        "notes": "Several terminals per cavity (the harness picks the one that fits the wire, asks when several fit), Place \u2192 Connector from Parts Database, device notes, junction labels show their boot / Tape, Parts DB dropdowns stay open on a double-click, menus with tooltips stay open."
       }
     }
   },
-  "signature": "Scdh4vlkGDzrjsQJvfldXH6Pj7xFzZoVlGsIWNZP8KuMFklkAShvrIHrwDeBTqH3rt+uOKsf3fM7swbQWngbCQ=="
+  "signature": "oK4ElRPXbyjPwV21GDjS+5gvGrb8Cxr4oerSzNhiLf30uBsSBE+gjFp0g0S0aLuzvbE2l+VeCLZKxcwfLXB1Aw=="
 }
