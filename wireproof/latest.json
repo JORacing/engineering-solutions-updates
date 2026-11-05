@@ -12,14 +12,14 @@
         "notes": "Title block with part number and Approved by (Project Properties); photos capped on Qt, Pillow out of the build (~11 MB smaller); a run from source refuses a Visual C++ runtime older than Qt needs; dead-code sweep (46 uncalled functions); docs brought back in line with the code. Also: Build \u2192 Export Connection Sheet\u2026 (OBR pin-list layout, Changelog sheet), Parts Database Open photos folder, function names by what the wire does (Step 1), connector-face fixes."
       },
       "beta": {
-        "version": "0.62.0",
-        "url": "https://github.com/JORacing/engineering-solutions-updates/releases/download/wireproof-v0.62.0/WireProof-Setup-0.62.0.exe",
-        "sha256": "1a9ffe4687a2f288741644c88e18825180920685c9130d97f4dae974b7b248c0",
-        "size": 42213910,
+        "version": "0.63.0",
+        "url": "https://github.com/JORacing/engineering-solutions-updates/releases/download/wireproof-v0.63.0/WireProof-Setup-0.63.0.exe",
+        "sha256": "e489d6f8e49b9284e22512244495e4b88258c3ace68789cdf3880afe13358f1b",
+        "size": 42275915,
         "date": "2026-11-05",
-        "notes": "Tape is a Parts Database part (Protection \u2192 Tapes) priced per length; pick the tape per segment or for the whole harness; the BOM prices one line per tape part."
+        "notes": "Nodes draw what they hold as the end of the bundle (connector face on the node point); junctions get their own protection (None / Heatshrink / Tape)"
       }
     }
   },
-  "signature": "9fpn6GG4X6zaRhFafZ++K17R4+r00cPhl2CwM6Y4FEBG/6wIM95mp/gGah7cbsKEDlhQXNrlNAZb3xtEq5RyCQ=="
+  "signature": "EGQIBR8ZiuPHJBm5O1EY5y25A1/3gbDPXieHE1ko9C7YxVmtuip4RP6/5k7oPJrP+1W1aH/T9EaHCdm6suzGAA=="
 }
