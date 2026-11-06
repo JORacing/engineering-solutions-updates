@@ -12,14 +12,14 @@
         "notes": "Title block with part number and Approved by (Project Properties); photos capped on Qt, Pillow out of the build (~11 MB smaller); a run from source refuses a Visual C++ runtime older than Qt needs; dead-code sweep (46 uncalled functions); docs brought back in line with the code. Also: Build \u2192 Export Connection Sheet\u2026 (OBR pin-list layout, Changelog sheet), Parts Database Open photos folder, function names by what the wire does (Step 1), connector-face fixes."
       },
       "beta": {
-        "version": "0.64.0",
-        "url": "https://github.com/JORacing/engineering-solutions-updates/releases/download/wireproof-v0.64.0/WireProof-Setup-0.64.0.exe",
-        "sha256": "984ba4bf436c244d337591fd60092e651187b9ab19d5c8993910c276bd87e535",
-        "size": 42330253,
+        "version": "0.65.0",
+        "url": "https://github.com/JORacing/engineering-solutions-updates/releases/download/wireproof-v0.65.0/WireProof-Setup-0.65.0.exe",
+        "sha256": "1ee7c6175772585189b7c57e8a1e09974246a7db77dfd6cea2cecb77f60f791f",
+        "size": 42333968,
         "date": "2026-11-06",
-        "notes": "Design rule marks on the node symbols (errors red, warnings yellow, screen only); toolbar Design Rules group (Off/Auto, Check now, Open); open and save no longer slow on parts missing from the Parts Database"
+        "notes": "Check now turns into a spinning circle while it checks and stops when done"
       }
     }
   },
-  "signature": "oBjubZQcN7xPJDFBcKYWpTAFb+SCzx7ToAsDLkbmq10fHGBeymYepSZUvhMCF4uCEaPZyAR9/dG2QreyiZoPBw=="
+  "signature": "MMtQxmCQt9Q5iXBPH2amn8vJHtCKp18Pcg3qaxvdX0J6N6q6X6YZv7dOPB8mUuxU4RUM3SgTZPcI8a5hr9DPBQ=="
 }
