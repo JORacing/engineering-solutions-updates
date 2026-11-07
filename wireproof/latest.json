@@ -4,14 +4,6 @@
     "generated": "2026-11-07",
     "channels": {
       "stable": {
-        "version": "0.59.0",
-        "url": "https://github.com/JORacing/engineering-solutions-updates/releases/download/wireproof-v0.59.0/WireProof-Setup-0.59.0.exe",
-        "sha256": "4b037ac80a347e19148d4fe35df6662dfe4ed41f9527c1bc738cd2b761df801f",
-        "size": 41972876,
-        "date": "2026-10-31",
-        "notes": "Title block with part number and Approved by (Project Properties); photos capped on Qt, Pillow out of the build (~11 MB smaller); a run from source refuses a Visual C++ runtime older than Qt needs; dead-code sweep (46 uncalled functions); docs brought back in line with the code. Also: Build \u2192 Export Connection Sheet\u2026 (OBR pin-list layout, Changelog sheet), Parts Database Open photos folder, function names by what the wire does (Step 1), connector-face fixes."
-      },
-      "beta": {
         "version": "0.66.0",
         "url": "https://github.com/JORacing/engineering-solutions-updates/releases/download/wireproof-v0.66.0/WireProof-Setup-0.66.0.exe",
         "sha256": "96f744d754d1d35df404c00e94aa33fcde530887f9a8579f7b905d420b69a3b0",
@@ -21,5 +13,5 @@
       }
     }
   },
-  "signature": "DVRbBHxWVoNZcwCyYOoAQBhXIo8X7BvTdWUA/H3VUgrsa1aD1HlMSMbgzYnyZi6fJVUpnKBI4my6gLjW87TwAA=="
+  "signature": "bjrAxOLAi6aB4BUFkj+0MEKT6uffEf7BPQ53pgogX9U9yzFjSjN1cUb/OmkfUd860KFp7cMDa849zfaRA1sLDQ=="
 }
