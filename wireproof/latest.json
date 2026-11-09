@@ -1,7 +1,7 @@
 {
   "payload": {
     "product": "WireProof",
-    "generated": "2026-11-07",
+    "generated": "2026-11-09",
     "channels": {
       "stable": {
         "version": "0.66.0",
@@ -10,8 +10,16 @@
         "size": 42446364,
         "date": "2026-11-07",
         "notes": "Node symbols name their parts; splices read like one-cavity connectors (flat S-numbers); Auto Fix in the node dialog; Function renames move the wire with the new default wire; node table sizes; short design rule messages with error / warning totals."
+      },
+      "beta": {
+        "version": "0.67.0",
+        "url": "https://github.com/JORacing/engineering-solutions-updates/releases/download/wireproof-v0.67.0/WireProof-Setup-0.67.0.exe",
+        "sha256": "d65e4071d7a75fc22603a3e37e72e6e61db98dba757d1bb01e3d9e46606123b9",
+        "size": 42544299,
+        "date": "2026-11-09",
+        "notes": "The wire's far end as a Cascade: Node, then Connector, then Cavity. The Remote Connector cell is editable and lists the node's connectors (C-number, part number, device) and splices; the Function fill asks which connector when two devices on one node carry it; a splice-only node lands on its splice at once; splices carry a label; junctions leave the Node dropdown. A typed Remote Cavity is saved; status, remote function and wire length follow an edit."
       }
     }
   },
-  "signature": "bjrAxOLAi6aB4BUFkj+0MEKT6uffEf7BPQ53pgogX9U9yzFjSjN1cUb/OmkfUd860KFp7cMDa849zfaRA1sLDQ=="
+  "signature": "qtDy54wRGWuW5V9cvfkRWxaamGgmfOSSWI0nW/Se+Uv/OHPs32AjQdHdybsAp1hA4kSaa5NG9grfey2uqwYEDw=="
 }
