@@ -4,14 +4,6 @@
     "generated": "2026-11-09",
     "channels": {
       "stable": {
-        "version": "0.67.0",
-        "url": "https://github.com/JORacing/engineering-solutions-updates/releases/download/wireproof-v0.67.0/WireProof-Setup-0.67.0.exe",
-        "sha256": "d65e4071d7a75fc22603a3e37e72e6e61db98dba757d1bb01e3d9e46606123b9",
-        "size": 42544299,
-        "date": "2026-11-09",
-        "notes": "The wire's far end as a Cascade: Node, then Connector, then Cavity. The Remote Connector cell is editable and lists the node's connectors (C-number, part number, device) and splices; the Function fill asks which connector when two devices on one node carry it; a splice-only node lands on its splice at once; splices carry a label; junctions leave the Node dropdown. A typed Remote Cavity is saved; status, remote function and wire length follow an edit."
-      },
-      "beta": {
         "version": "0.67.1",
         "url": "https://github.com/JORacing/engineering-solutions-updates/releases/download/wireproof-v0.67.1/WireProof-Setup-0.67.1.exe",
         "sha256": "5314051220d8f30be9069da335f60b9df099e272762d36354b32a9ffc7b96890",
@@ -21,5 +13,5 @@
       }
     }
   },
-  "signature": "OU9BwRrfBjV62/1eCEh8amntV34F/MbG76v0G0zDeA9yPNY8ijwRJ0f/0nz7FPSIs9av42/umFSeiDiY8vWBAQ=="
+  "signature": "I+H/3aipYfFKgDZBEdZL5ElQ3kiaig+R4/lUbL4B09VXfQ4x1MWUNFyQ2hD2kbtjljkjtdpua4/jrugz7A2ZAA=="
 }
