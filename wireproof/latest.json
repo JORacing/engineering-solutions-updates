@@ -10,8 +10,16 @@
         "size": 42544299,
         "date": "2026-11-09",
         "notes": "The wire's far end as a Cascade: Node, then Connector, then Cavity. The Remote Connector cell is editable and lists the node's connectors (C-number, part number, device) and splices; the Function fill asks which connector when two devices on one node carry it; a splice-only node lands on its splice at once; splices carry a label; junctions leave the Node dropdown. A typed Remote Cavity is saved; status, remote function and wire length follow an edit."
+      },
+      "beta": {
+        "version": "0.67.1",
+        "url": "https://github.com/JORacing/engineering-solutions-updates/releases/download/wireproof-v0.67.1/WireProof-Setup-0.67.1.exe",
+        "sha256": "5314051220d8f30be9069da335f60b9df099e272762d36354b32a9ffc7b96890",
+        "size": 42551393,
+        "date": "2026-11-09",
+        "notes": "Parts Database fixes reported by OBR: the Save / Discard / Cancel prompt of a new device no longer comes back after every Cancel (nor nests inside Save, nor lets Discard load the first device over the new one); a terminal, housing or other part saved, renamed or deleted under Connector Parts reaches the Connectors tab's dropdowns at once (no restart or Reload needed), a wire saved reaches the Functions tab's Default Wire list, a function saved reaches the Devices tab."
       }
     }
   },
-  "signature": "h5WFLy3XvLQcR54h6ErlHHnHn73e7krIl5hkfj4ZUNfO9EBsmH6OWX3phb9HqbGkQJRtozst5iyONAL8IlkjBg=="
+  "signature": "OU9BwRrfBjV62/1eCEh8amntV34F/MbG76v0G0zDeA9yPNY8ijwRJ0f/0nz7FPSIs9av42/umFSeiDiY8vWBAQ=="
 }
