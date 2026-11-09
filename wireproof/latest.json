@@ -4,14 +4,6 @@
     "generated": "2026-11-09",
     "channels": {
       "stable": {
-        "version": "0.66.0",
-        "url": "https://github.com/JORacing/engineering-solutions-updates/releases/download/wireproof-v0.66.0/WireProof-Setup-0.66.0.exe",
-        "sha256": "96f744d754d1d35df404c00e94aa33fcde530887f9a8579f7b905d420b69a3b0",
-        "size": 42446364,
-        "date": "2026-11-07",
-        "notes": "Node symbols name their parts; splices read like one-cavity connectors (flat S-numbers); Auto Fix in the node dialog; Function renames move the wire with the new default wire; node table sizes; short design rule messages with error / warning totals."
-      },
-      "beta": {
         "version": "0.67.0",
         "url": "https://github.com/JORacing/engineering-solutions-updates/releases/download/wireproof-v0.67.0/WireProof-Setup-0.67.0.exe",
         "sha256": "d65e4071d7a75fc22603a3e37e72e6e61db98dba757d1bb01e3d9e46606123b9",
@@ -21,5 +13,5 @@
       }
     }
   },
-  "signature": "qtDy54wRGWuW5V9cvfkRWxaamGgmfOSSWI0nW/Se+Uv/OHPs32AjQdHdybsAp1hA4kSaa5NG9grfey2uqwYEDw=="
+  "signature": "h5WFLy3XvLQcR54h6ErlHHnHn73e7krIl5hkfj4ZUNfO9EBsmH6OWX3phb9HqbGkQJRtozst5iyONAL8IlkjBg=="
 }
