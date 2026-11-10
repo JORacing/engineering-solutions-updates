@@ -1,25 +1,17 @@
 {
   "payload": {
     "product": "WireProof",
-    "generated": "2026-11-09",
+    "generated": "2026-11-10",
     "channels": {
       "stable": {
-        "version": "0.67.1",
-        "url": "https://github.com/JORacing/engineering-solutions-updates/releases/download/wireproof-v0.67.1/WireProof-Setup-0.67.1.exe",
-        "sha256": "5314051220d8f30be9069da335f60b9df099e272762d36354b32a9ffc7b96890",
-        "size": 42551393,
-        "date": "2026-11-09",
-        "notes": "Parts Database fixes reported by OBR: the Save / Discard / Cancel prompt of a new device no longer comes back after every Cancel (nor nests inside Save, nor lets Discard load the first device over the new one); a terminal, housing or other part saved, renamed or deleted under Connector Parts reaches the Connectors tab's dropdowns at once (no restart or Reload needed), a wire saved reaches the Functions tab's Default Wire list, a function saved reaches the Devices tab."
-      },
-      "beta": {
         "version": "0.68.0",
         "url": "https://github.com/JORacing/engineering-solutions-updates/releases/download/wireproof-v0.68.0/WireProof-Setup-0.68.0.exe",
         "sha256": "77dd8fc30107a28713e39e55892f8d3fb78417d854b878f075792d6469101b3b",
         "size": 42557887,
-        "date": "2026-11-09",
+        "date": "2026-11-10",
         "notes": "Panning the canvas repaints only the strip that comes into view (about 1 ms per step instead of 63 ms on a 51-node harness; whole-pixel steps on fractional display scales). Every protected segment names its tape or heatshrink part under its length. Cavity maps draw the real connector face for 23 more housings (ten new library faces)."
       }
     }
   },
-  "signature": "ihDCdmqH4yQ7J8D5rifBIpr6kswo0MbsAokQAcx4XmHqILXLLRy7NPYhX1JitoIqM5g1JWOb0ugGc4LRtLKIDQ=="
+  "signature": "49fP7EG72VYpWYan4nizRx9Yx2guUD8lt5XzXGD+V9pw5OlQ3GH2KKZZSRI9C89qtWChtm1zEPdEJkaK5vLuAw=="
 }
