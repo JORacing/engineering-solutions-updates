@@ -1,7 +1,7 @@
 {
   "payload": {
     "product": "WireProof",
-    "generated": "2026-11-10",
+    "generated": "2026-11-11",
     "channels": {
       "stable": {
         "version": "0.68.0",
@@ -10,8 +10,16 @@
         "size": 42557887,
         "date": "2026-11-10",
         "notes": "Panning the canvas repaints only the strip that comes into view (about 1 ms per step instead of 63 ms on a 51-node harness; whole-pixel steps on fractional display scales). Every protected segment names its tape or heatshrink part under its length. Cavity maps draw the real connector face for 23 more housings (ten new library faces)."
+      },
+      "beta": {
+        "version": "0.69.0",
+        "url": "https://github.com/JORacing/engineering-solutions-updates/releases/download/wireproof-v0.69.0/WireProof-Setup-0.69.0.exe",
+        "sha256": "0bfd3ae1e7eadf096b5d419791e39c718692e50d46ffea288d159f700c002d7e",
+        "size": 42636799,
+        "date": "2026-11-11",
+        "notes": "Segment Properties shows the bundle's cross-section to scale: a concentric lay with the thickest wires at the core, and a legend of every wire and its ends. Panning the canvas is smoother. Adding a segment no longer closes the program. The title block keeps its place on 125 %, 150 % and 200 % displays. One mouse-wheel step zooms twice as far."
       }
     }
   },
-  "signature": "49fP7EG72VYpWYan4nizRx9Yx2guUD8lt5XzXGD+V9pw5OlQ3GH2KKZZSRI9C89qtWChtm1zEPdEJkaK5vLuAw=="
+  "signature": "pKfiml98JhQOkR5E1BRjJ7dPvCtkgW+iH3/44rROHw1m+x6sj2QN8+qeVfPlVUc+XQg9HUW9eYOFQ2dg9KmuAQ=="
 }
