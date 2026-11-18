@@ -10,8 +10,16 @@
         "size": 42740452,
         "date": "2026-11-18",
         "notes": "A device with several connectors can be drawn as one end per connector: right-click the node and pick Split Connectors, and each connector gets its own symbol, table and segment, with every wire measured from its own end; Merge Connectors puts them back on the node. View Settings has one tab per item (Table, Nodes, Segments), each with a live example of the node it was opened for; the table's columns are arranged on that example. A connector photo, pinout, connector face or protection label is hidden instead of deleted and comes back where it was."
+      },
+      "beta": {
+        "version": "0.71.0",
+        "url": "https://github.com/JORacing/engineering-solutions-updates/releases/download/wireproof-v0.71.0/WireProof-Setup-0.71.0.exe",
+        "sha256": "36e05ef29ff6f412207db02a82ab8c6465326a61bdd6e7e05e6e6c6d79cc5c6d",
+        "size": 42763567,
+        "date": "2026-11-18",
+        "notes": "- NEW: Help \u2192 Release Notes lists the changes in every version\n- NEW: After an update, What's New lists every change since the version you ran before\n- IMPROVED: The top bar shows how far an update download has come\n- IMPROVED: Help \u2192 Beta Updates is now Beta Tester"
       }
     }
   },
-  "signature": "S7eaI3ZmFO0XL58wLiZYuGsaDWTo9kguzhgqvyLuf/kWabAVfGc1LETFkr3LHskSAVrZaaihvrP0TQkTYthpAQ=="
+  "signature": "FcHw+5ku38uMiCVtXPPEZ44rAWlPye95aWyA9g60wwnKQAK9CL6dMxxKvVEv9EGWA71UwFAxiTrGRxAF9zQBAg=="
 }
