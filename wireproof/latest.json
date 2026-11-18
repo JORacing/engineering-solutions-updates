@@ -1,25 +1,17 @@
 {
   "payload": {
     "product": "WireProof",
-    "generated": "2026-11-15",
+    "generated": "2026-11-18",
     "channels": {
       "stable": {
-        "version": "0.68.0",
-        "url": "https://github.com/JORacing/engineering-solutions-updates/releases/download/wireproof-v0.68.0/WireProof-Setup-0.68.0.exe",
-        "sha256": "77dd8fc30107a28713e39e55892f8d3fb78417d854b878f075792d6469101b3b",
-        "size": 42557887,
-        "date": "2026-11-10",
-        "notes": "Panning the canvas repaints only the strip that comes into view (about 1 ms per step instead of 63 ms on a 51-node harness; whole-pixel steps on fractional display scales). Every protected segment names its tape or heatshrink part under its length. Cavity maps draw the real connector face for 23 more housings (ten new library faces)."
-      },
-      "beta": {
         "version": "0.70.0",
         "url": "https://github.com/JORacing/engineering-solutions-updates/releases/download/wireproof-v0.70.0/WireProof-Setup-0.70.0.exe",
         "sha256": "e4d5399405bc1421f66e8ef5ecd5e591f661a8b4d2e471d97fbad00e87725d21",
         "size": 42740452,
-        "date": "2026-11-15",
+        "date": "2026-11-18",
         "notes": "A device with several connectors can be drawn as one end per connector: right-click the node and pick Split Connectors, and each connector gets its own symbol, table and segment, with every wire measured from its own end; Merge Connectors puts them back on the node. View Settings has one tab per item (Table, Nodes, Segments), each with a live example of the node it was opened for; the table's columns are arranged on that example. A connector photo, pinout, connector face or protection label is hidden instead of deleted and comes back where it was."
       }
     }
   },
-  "signature": "54buhgCjC7AEODEceIJPTF5jEqKCCNnDvYzhl1ZGgWNAhSEp96cR6A5Hydkl14vPfIr6oMQY6H/Ygfe5Cvl9Cw=="
+  "signature": "S7eaI3ZmFO0XL58wLiZYuGsaDWTo9kguzhgqvyLuf/kWabAVfGc1LETFkr3LHskSAVrZaaihvrP0TQkTYthpAQ=="
 }
