@@ -12,14 +12,14 @@
         "notes": "A device with several connectors can be drawn as one end per connector: right-click the node and pick Split Connectors, and each connector gets its own symbol, table and segment, with every wire measured from its own end; Merge Connectors puts them back on the node. View Settings has one tab per item (Table, Nodes, Segments), each with a live example of the node it was opened for; the table's columns are arranged on that example. A connector photo, pinout, connector face or protection label is hidden instead of deleted and comes back where it was."
       },
       "beta": {
-        "version": "0.72.0",
-        "url": "https://github.com/JORacing/engineering-solutions-updates/releases/download/wireproof-v0.72.0/WireProof-Setup-0.72.0.exe",
-        "sha256": "74d6ddc84110333e76f3e06e92d760893a1be8bf25bd3e13ef6c341b5c80c5a6",
-        "size": 42812068,
+        "version": "0.72.1",
+        "url": "https://github.com/JORacing/engineering-solutions-updates/releases/download/wireproof-v0.72.1/WireProof-Setup-0.72.1.exe",
+        "sha256": "1bb1f1481e7c779380cdbec7418360bdfb38fcaecf4d93851175715060f80daf",
+        "size": 42838668,
         "date": "2026-11-19",
-        "notes": "- NEW: Save several databases and switch between them from the Database menu, the Parts Database bar or the status bar\n- IMPROVED: The database settings never show the password; a pasted connection URL fills the fields"
+        "notes": "- FIXED: Opening a project no longer closes the program on PCs whose processor lacks AVX-512\n- IMPROVED: A crash report names the processor and Windows version, and the next start adds Windows' own record of the crash"
       }
     }
   },
-  "signature": "f8hV+iWDgnG8Kck7l2+NdhR5RXxlG8RC7Fiymd65jGsE4ut51QUJqrv3/d/SeoYZsWXho9qmEAKNpXYl2+SIAw=="
+  "signature": "deKYpscatEAfmYhdTr5utUOMxestWnjscVZ/O1ZDq3RA3nPIZJFaygEKCRggCa8W2Y1CtcB3dtK6zmQOwM51Bw=="
 }
